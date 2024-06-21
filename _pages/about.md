@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Department of Mechanical Engineering</a> #. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
