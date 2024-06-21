@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Department of Mechanical Engineering</a> #. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.ucl.ac.uk/mechanical-engineering/'>Department of Mechanical Engineering</a> #. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
