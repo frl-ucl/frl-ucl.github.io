@@ -22,8 +22,8 @@ profiles:
       <a href="https://profiles.ucl.ac.uk/35462-yuanchang-liu" title="Work" style="transform: scale(2); display: inline-block;"><i class="ai ai-archive"></i></a> <br> </p>
 
       
-    scholar_userid: hw5f7C0AAAAJ
-    social: true
+    # scholar_userid: hw5f7C0AAAAJ
+    # social: true
 
   - align: left
     image: saldhaheri.jpg
