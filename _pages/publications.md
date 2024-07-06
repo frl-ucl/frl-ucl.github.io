@@ -7,6 +7,9 @@ nav: true
 nav_order: 2
 ---
 
-Coming soon
+<!-- _pages/publications.md -->
+<div class="publications">
 
 {% bibliography %}
+
+</div>
