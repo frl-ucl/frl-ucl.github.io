@@ -9,9 +9,4 @@ display_categories: [Current, Past]
 horizontal: false
 ---
 
-<div class="publications">
-
 Coming Soon
-
-</div>
-

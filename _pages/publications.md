@@ -7,4 +7,8 @@ nav: true
 nav_order: 2
 ---
 
-Coming soon
+<div class="publications">
+
+Coming Soon
+
+</div>
