@@ -42,6 +42,13 @@ profiles:
       <p>MPhil/PhD Student</p>
 
   - align: left
+    image: yxie.png
+    content: about_yxie.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>PhD Candidate</p> <br>
+
+  - align: left
     image: sma.jpg
     content: about_sma.md
     image_circular: false # crops the image to make it circular

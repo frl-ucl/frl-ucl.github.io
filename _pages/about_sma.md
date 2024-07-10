@@ -1,1 +1,1 @@
-Song Ma is a PhD researcher. His research interests include multi-agent planning and robotic exploration. 
+**Song Ma** is a PhD researcher. His research interests include multi-agent planning and robotic exploration. 
