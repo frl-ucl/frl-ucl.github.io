@@ -3,10 +3,9 @@ layout: about
 title: About
 permalink: /
 subtitle: <a href='https://www.ucl.ac.uk/mechanical-engineering/'>Department of Mechanical Engineering</a> #. Address. Contacts. Moto. Etc.
-
 profile:
   align: right
-  image: ucl_portico_and_blossom_-_800x500.png
+  image: 
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -17,9 +16,8 @@ profile:
 # selected_papers: true # includes a list of papers marked as "selected={true}"
 # social: true # includes social icons at the bottom of the page
 ---
-
-<img src= "assets/img/ucl_mech_175_horiz_purple.png" alt="Example Image" width= 150 style="display: block; text-align: left;"> 
-<img src= "assets/img/roboticsailogo.png" alt="Example Image" width= 150 style="display: block; text-align: left;"> 
+<img src= "assets/img/meriem-drone.jpeg" alt="Meriem Ben Miled and Drone" width= 930px style="display: banner;">
+<img src= "assets/img/roboticsailogo.png" alt="Robotics and Innovation Logo" width= 150 style="display: inline;">  <img src= "assets/img/ucl_mech_175_horiz_purple.png" alt="UCL Mechenical Engineering Logo" width= 200 style="vertical-align: middle; display: inline;">
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
