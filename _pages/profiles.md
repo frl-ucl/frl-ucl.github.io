@@ -12,7 +12,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: left
     # text-align: right
-    image: yliu.jpg
+    image: y_liu.png
     content: about_yliu.md
     image_circular: false # crops the image to make it circular
     more_info: >
