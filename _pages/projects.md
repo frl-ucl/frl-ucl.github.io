@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Projects
 permalink: /projects/
@@ -9,4 +9,4 @@ display_categories: [Current, Past]
 horizontal: false
 ---
 
-Coming Soon
+Coming Soon -->
