@@ -57,4 +57,11 @@ profiles:
       <p> <br> <a href="https://scholar.google.com/citations?user=LtuYFhoAAAAJ&hl=en&oi=ao" title="Google Scholar" style="transform: scale(2); display: inline-block;"><i class="ai ai-google-scholar"></i></a> 
       <span style="margin-left: 2em;"></span> 
       <a href="https://www.ucl.ac.uk/~ucemaxx" title="Work" style="transform: scale(2); display: inline-block;"><i class="ai ai-archive"></i></a> <br> </p>
+
+  - align: left
+    image: yhuang.png
+    content: about_yhuang.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Visiting Scholar</p> <br>
 ---
