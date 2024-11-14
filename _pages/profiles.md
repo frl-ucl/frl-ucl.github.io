@@ -24,6 +24,13 @@ profiles:
       
     scholar_userid: hw5f7C0AAAAJ
     social: true
+  
+  - align: left
+    image: yhu.jpg
+    content: about_yhu.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>MPhil/PhD Student</p> <br>
 
   - align: left
     image: saldhaheri.jpg
