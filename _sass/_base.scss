@@ -49,7 +49,7 @@ table.table a {
 }
 
 .table-dark {
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: transparent;
   &.table-bordered {
     border: 1px solid var(--global-divider-color) !important;
@@ -638,12 +638,12 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    color: var(#{$black-color});
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
   }
 }
 

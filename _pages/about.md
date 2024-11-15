@@ -17,8 +17,13 @@ news: true # includes a list of news items
 # social: true # includes social icons at the bottom of the page
 ---
 
-<img src= "assets/img/meriem-drone.jpeg" alt="Meriem Ben Miled and Drone" style="max-width: 100%; height: auto; vertical-align: middle display: banner;">
-<img src= "assets/img/roboticsailogo.png" alt="Robotics and Innovation Logo" width= 150 style="display: inline;">  <img src= "assets/img/ucl_mech_175_horiz_purple.png" alt="UCL" width= 200 style="vertical-align: middle; display: inline;">
+
+<img src= "assets/img/landingpage/meriem-drone.jpeg" alt="Meriem Ben Miled and Drone" style="max-width: 100%; height: auto; vertical-align: middle display: banner;">
+<img src= "assets/img/landingpage/roboticsailogo.png" alt="Robotics and Innovation Logo" width= 150 style="display: inline;">  <img src= "assets/img/landingpage/ucl_mech_175_horiz_purple.png" alt="UCL" width= 200 style="vertical-align: middle; display: inline;">
+
+<p style="text-align: justify;">
+Our group is dedicated to advancing autonomous systems across field research in three core areas: <b>Reliable Sensing and Perception</b>, <b>Intelligent Planning and Decision Making</b>, and <b>Advanced Robust Control</b>. Our mission is to develop resilient technologies that enhance system reliability by integrating sophisticated sensing, perception, and adaptive control frameworks. By leveraging the latest advances in machine learning, optimization, and control theory, we address real-world challenges, enabling autonomous platforms to navigate and operate effectively in complex, dynamic environments.
+</p>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

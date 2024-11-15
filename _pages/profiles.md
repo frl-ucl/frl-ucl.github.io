@@ -12,7 +12,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: left
     # text-align: right
-    image: y_liu.png
+    image: people/y_liu.png
     content: people/about_yliu.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -26,14 +26,14 @@ profiles:
     social: true
   
   - align: left
-    image: yhu.jpg
+    image: people/yhu.jpg
     content: people/about_yhu.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MPhil/PhD Student</p> <br>
 
   - align: left
-    image: jxue.jpg
+    image: people/jxue.jpg
     content: people/about_jxue.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -41,7 +41,7 @@ profiles:
 
 
   - align: left
-    image: saldhaheri.jpg
+    image: people/saldhaheri.jpg
     content: people/about_saldhaheri.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -50,21 +50,21 @@ profiles:
       <span style="margin-left: 2em;"></span>  <br> </p>
   
   - align: left
-    image: nana.jpg
+    image: people/nana.jpg
     content: people/about_nana.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MPhil/PhD Student</p>
 
   - align: left
-    image: yxie.png
+    image: people/yxie.png
     content: people/about_yxie.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Candidate</p> <br>
 
   - align: left
-    image: sma.jpg
+    image: people/sma.jpg
     content: people/about_sma.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -74,14 +74,14 @@ profiles:
       <a href="https://www.ucl.ac.uk/~ucemaxx" title="Work" style="transform: scale(2); display: inline-block;"><i class="ai ai-archive"></i></a> <br> </p>
   
   - align: left
-    image: mbm.jpeg
+    image: people/mbm.jpeg
     content: people/about_mbm.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Alumna</p> <br>
 
   - align: left
-    image: yhuang.png
+    image: people/yhuang.png
     content: people/about_yhuang.md
     image_circular: false # crops the image to make it circular
     more_info: >
