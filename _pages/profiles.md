@@ -13,7 +13,7 @@ profiles:
   - align: left
     # text-align: right
     image: y_liu.png
-    content: about_yliu.md
+    content: people/about_yliu.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Associate Professor and Chair of Marine Research</p> <br>
@@ -27,14 +27,22 @@ profiles:
   
   - align: left
     image: yhu.jpg
-    content: about_yhu.md
+    content: people/about_yhu.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MPhil/PhD Student</p> <br>
 
   - align: left
+    image: jxue.jpg
+    content: people/about_jxue.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>MPhil/PhD Student</p> <br>
+
+
+  - align: left
     image: saldhaheri.jpg
-    content: about_saldhaheri.md
+    content: people/about_saldhaheri.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MPhil/PhD Student</p> <br>
@@ -43,21 +51,21 @@ profiles:
   
   - align: left
     image: nana.jpg
-    content: about_nana.md
+    content: people/about_nana.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MPhil/PhD Student</p>
 
   - align: left
     image: yxie.png
-    content: about_yxie.md
+    content: people/about_yxie.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Candidate</p> <br>
 
   - align: left
     image: sma.jpg
-    content: about_sma.md
+    content: people/about_sma.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Candidate</p> <br>
@@ -67,14 +75,14 @@ profiles:
   
   - align: left
     image: mbm.jpeg
-    content: about_mbm.md
+    content: people/about_mbm.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Alumna</p> <br>
 
   - align: left
     image: yhuang.png
-    content: about_yhuang.md
+    content: people/about_yhuang.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Visiting Scholar</p> <br>
