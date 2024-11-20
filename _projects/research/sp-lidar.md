@@ -2,11 +2,14 @@
 layout: page
 title: LiDAR-based
 description: 
-img: assets/img/projects/lidar-perception.jpeg
+img: assets/img/projects/lidar.gif
 importance: 2
 category: Reliable Sensing and Perception
 related_publications: true
 ---
+
+In collaboration with Port of London Authority, our research group conducted a series of data collection trials on the River Thames. We used multiple perception sensors including 3D LiDAR, high-resolution cameras, sound velocity profilers, etc. onboard a survey vessel to achieve a comprehensive autonomous understanding of traffic in busy waterways. We are grateful for the support from Port of London Authority and our funder, EPSRC.
+
 <!-- This is an example post with videos. It supports local video files. -->
 
 <div class="row mt-3">
