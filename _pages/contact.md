@@ -17,9 +17,9 @@ display_categories: [For Prospective PhD Students/Postdocs/Visiting Scholars, Fo
     </a>
     <!-- Display text for each category -->
     {% if category == "For Prospective PhD Students/Postdocs/Visiting Scholars" %}
-      <p>If you are interested in a PhD/post-doc position/visiting scholar position, please submit this <a href="https://frl-ucl.github.io/" target="_blank" style="text-decoration: underline;">form</a>.</p>
+      <p>If you are interested in a PhD/post-doc position/visiting scholar position, please submit this <a href="https://forms.office.com/e/mTC2qZGhQM" target="_blank" style="text-decoration: underline;">form</a>.</p>
     {% elsif category == "For General Enquiries" %}
-      <p>If you are interested in our projects or have general questions, please submit this <a href="https://frl-ucl.github.io/" target="_blank" style="text-decoration: underline;">form</a>.</p>
+      <p>If you are interested in our projects or have general questions, please submit this <a href="https://forms.office.com/e/wbXeBDH32c" target="_blank" style="text-decoration: underline;">form</a>.</p>
     {% endif %}
   {% endfor %}
 {% endif %}
