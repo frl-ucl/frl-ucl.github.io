@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Task Planning
 description: Task allocation for multi-robot systems
@@ -8,4 +8,4 @@ category: Intelligent Planning and Decision Making
 related_publications: true
 ---
 
-<p hidden> {%cite ma2021unsupervised%}{%cite ma2024end%}{%cite ma2022end%}</p>
+<p hidden> {%cite ma2021unsupervised%}{%cite ma2024end%}{%cite ma2022end%}</p> -->
