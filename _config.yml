@@ -248,6 +248,7 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/people/projects.md
+  - _pages/archive/projects.md
   # - _pages/publications.md
 
 keep_files:
