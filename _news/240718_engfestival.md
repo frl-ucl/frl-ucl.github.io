@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UCL Festival of Engineering 2024 🛠📋
+title: 🛠📋 UCL Festival of Engineering 2024 
 date: 2024-07-18 15:30:00-0400
 inline: false
 related_posts: false

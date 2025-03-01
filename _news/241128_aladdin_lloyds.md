@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our ALADDIN demonstrator project was featured in the Lloyd's Register Foundation newsletter! 📰🎉
+title: 📰🎉 Our ALADDIN demonstrator project was featured in the Lloyd's Register Foundation newsletter! 
 date: 2024-11-28 00:00:00-0400
 inline: false
 related_posts: false
