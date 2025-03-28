@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Underwater Robotic Simulator Reviews</title>
+    <meta charset="UTF-8">
+    <title>Figures</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+    body {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 2rem;
+    }
+    figure {
+    margin: 2rem auto;
+    max-width: 800px;
+    }
+    figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+    }
+    /* Independent widths */
+    .fig-1 img { width: 60%; }
+    .fig-2 img { width: 80%; }
+    
+
+    
+    /* Keep the whole table block consistent in width and centered */
+    #simTable_wrapper {
+    width: 95%;
+    margin: 0 auto;
+    }
+
+    /* Align top row: Search (left) + Entries (right) */
+    #simTable_wrapper .dataTables_filter,
+    #simTable_wrapper .dataTables_length {
+    width: 97.5%;
+    box-sizing: border-box;
+    }
+
+    #simTable_wrapper .dataTables_length {
+    text-align: right;
+    }
+
+    #simTable_wrapper .dataTables_filter {
+    text-align: left;
+    }
+
+    #simulatorFilter, #projectFilter {
+        font-size: 0.9rem;
+        padding: 2px 6px;
+    }
+
+    /* Parent of info + pagination */
+    #simTable_wrapper .dataTables_info,
+    #simTable_wrapper .dataTables_paginate {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    /* Flex container for both */
+    #simTable_wrapper .dataTables_wrapper > .row:last-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 97.5%;
+        margin: 0 auto;
+        padding-top: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    </style>
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+
+    <!-- jQuery and DataTables JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+</head>
+<body>
+
+    <h1>Underwater Robotic Simulator Reviews</h1>
+
+    <figure class="fig-1">
+        <img src="static/img/simulator-architecture.jpg" alt="Foundational framework of an underwater robotic simulator">
+        <figcaption>Figure 1: Foundational framework of an underwater robotic simulator.</figcaption>
+    </figure>
+
+    <figure class="fig-2">
+        <img src="static/img/oceans2025_timeline.jpg" alt="Timeline of underwater robotics simulators">
+        <figcaption>Figure 2: Timeline of URS, sim‑to‑real frameworks, and benchmarking tools.</figcaption>
+    </figure>
+
+
+
+    <h2>Comparative Table</h2>
+    <div id="filter-controls"></div>
+        <label for="simulatorFilter" style="margin-left: 1rem;">Filter by Simulator: </label>
+        <select id="simulatorFilter">
+            <option value="">All</option>
+            <option value="Stonefish">Stonefish</option>
+            <option value="DAVE">DAVE</option>
+            <option value="HoloOcean">HoloOcean</option>
+            <option value="MARUS">MARUS</option>
+            <option value="UNav-Sim">UNav-Sim</option>
+        </select>
+
+        <label for="projectFilter" style="margin-left: 2rem;">Filter by Project Type: </label>
+        <select id="projectFilter">
+            <option value="">All</option>
+            <option value="Perception">Perception</option>
+            <option value="Planning">Planning</option>
+            <option value="Control">Control</option>
+        </select>
+
+        <button id="clearFilters" style="margin-left: 2rem; padding: 4px 12px;">
+            Clear Filters
+        </button>
+    </div>
+
+    <div id="table-container"></div>
+
+    <script>
+    fetch('static/doc/projects-table.html')
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('table-container').innerHTML = html;
+
+            const table = $('#simTable').DataTable(); // Initialize table
+
+            // 👇 Filter logic must go here
+            function applyFilters() {
+            const sim = $('#simulatorFilter').val();
+            const proj = $('#projectFilter').val();
+
+            table.columns().search(''); // Clear all filters
+
+            if (sim) {
+                const simCol = {
+                "Stonefish": 1,
+                "DAVE": 2,
+                "HoloOcean": 3,
+                "MARUS": 4,
+                "UNav-Sim": 5
+                }[sim];
+
+                if (simCol !== undefined) {
+                table.column(simCol).search('✓');
+                }
+            }
+
+            if (proj) {
+                const projCol = {
+                "Perception": 6,
+                "Planning": 7,
+                "Control": 8
+                }[proj];
+
+                if (projCol !== undefined) {
+                table.column(projCol).search('✓');
+                }
+            }
+
+            table.draw();
+            }
+
+            $('#simulatorFilter, #projectFilter').on('change', applyFilters);
+
+            $('#clearFilters').on('click', function () {
+            $('#simulatorFilter').val('');
+            $('#projectFilter').val('');
+            table.columns().search('').draw();
+            });
+        });
+
+    </script>
+
+      
+</body>
+</html>
+
+
+
