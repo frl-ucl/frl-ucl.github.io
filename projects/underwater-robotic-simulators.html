@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Underwater Robotic Simulator Reviews</title>
+    <title>Underwater Robotic Simulator - A Review</title>
     <meta charset="UTF-8">
     <title>Figures</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Back to top">↑ Top</button>
+
+
     <style>
     body {
     font-family: 'Inter', sans-serif;
@@ -13,63 +16,108 @@
     }
     figure {
     margin: 2rem auto;
-    max-width: 800px;
+    max-width: 50%;
     }
     figcaption {
     margin-top: 0.5rem;
     font-size: 0.9rem;
-    color: #555;
+    color: #201e1e;
     }
     /* Independent widths */
     .fig-1 img { width: 60%; }
     .fig-2 img { width: 80%; }
     
 
-    
-    /* Keep the whole table block consistent in width and centered */
-    #simTable_wrapper {
-    width: 95%;
-    margin: 0 auto;
+    .dataTables_filter {
+        display: none !important;
+    }
+    .dataTables_length {
+        text-align: left;
+        padding-left: 3rem;
     }
 
-    /* Align top row: Search (left) + Entries (right) */
-    #simTable_wrapper .dataTables_filter,
-    #simTable_wrapper .dataTables_length {
-    width: 97.5%;
-    box-sizing: border-box;
-    }
-
-    #simTable_wrapper .dataTables_length {
-    text-align: right;
-    }
-
-    #simTable_wrapper .dataTables_filter {
-    text-align: left;
-    }
-
-    #simulatorFilter, #projectFilter {
-        font-size: 0.9rem;
-        padding: 2px 6px;
-    }
-
-    /* Parent of info + pagination */
-    #simTable_wrapper .dataTables_info,
-    #simTable_wrapper .dataTables_paginate {
-        display: inline-block;
-        vertical-align: middle;
-    }
-
-    /* Flex container for both */
-    #simTable_wrapper .dataTables_wrapper > .row:last-child {
+    .section-nav {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 97.5%;
-        margin: 0 auto;
-        padding-top: 0.5rem;
-        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 30px 0;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #333;
     }
 
+    .section-nav a {
+        text-decoration: none;
+        color: #333;
+        transition: color 0.2s ease;
+    }
+
+    .section-nav a:hover {
+        color: #0077cc;
+    }
+
+    .dot-divider::before {
+        content: "•";
+        margin: 0 12px;
+        color: #aaa;
+    }
+
+    .section-nav a:first-child .dot-divider::before {
+        content: "";
+        margin: 0;
+    }
+
+    .center-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 80px auto;
+        max-width: 600px;
+        padding: 20px;
+    }
+
+    .bibtex-header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 1.25em;
+        font-weight: 600;
+        margin-bottom: 12px;
+        font-family: 'Courier New', Courier, monospace;
+        /* font-size: 0.95em; */
+    }
+
+    .bibtex-box {
+        width: 100%;
+        background-color: #f6f6f6;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        /* font-family: monospace; */
+        font-family: 'Courier New', Courier, monospace;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    #backToTopBtn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 100;
+        background-color: #0077cc;
+        color: white;
+        border: none;
+        padding: 10px 16px;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        transition: background-color 0.3s ease;
+    }
+
+    #backToTopBtn:hover {
+        background-color: #005fa3;
+    }
     </style>
 
     <!-- DataTables CSS -->
@@ -78,25 +126,50 @@
     <!-- jQuery and DataTables JS -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-
+    
 </head>
 <body>
 
-    <h1>Underwater Robotic Simulator Reviews</h1>
+    <h1>🌊🤖Underwater Robotic Simulators - A Review</h1>
+    <div class="section-nav">
+        <a href="#analytics"><span class="dot-divider">Analytics</span></a>
+        <a href="#literature"><span class="dot-divider">Literature Table</span></a>
+        <a href="#cite"><span class="dot-divider">Cite</span></a>
+      </div>
 
-    <figure class="fig-1">
-        <img src="static/img/simulator-architecture.jpg" alt="Foundational framework of an underwater robotic simulator">
-        <figcaption>Figure 1: Foundational framework of an underwater robotic simulator.</figcaption>
+    <p style="width: 50%; margin: 0 auto; text-align: justify;">        This website accompanies the review <strong>“Underwater Robotic Simulators Review for Autonomous System Development”</strong>, offering a concise summary of findings and a categorized overview of the evaluated literature.
+    </p>
+    <br>
+    <p style="width: 50%; margin: 0 auto; text-align: justify;">       
+         The review evaluates five state-of-the-art, ROS-compatible, open-source underwater robotic simulators (URSs) based on features such as sensor fidelity, environmental realism, and their role in sim-to-real transfer. Each simulator was analyzed across <strong>perception</strong>, <strong>planning</strong>, <strong>control</strong>, and <strong>other</strong> research domains.
+    </p>
+
+    <br>
+    <br>
+
+    <h2><section id="analytics">🔍 SOTA Underwater Robotic Simulator Analytics</section></h2>
+
+    <figure class="fig-1"  style="margin: 0 auto; text-align: center;">
+        <img src="static/img/breakdown.png" alt="Foundational framework of an underwater robotic simulator">
+        <figcaption>Figure 1: Research area distribution of publications that utilize the five reviewed simulator with the simulators' release years in parenthesis.</figcaption>
     </figure>
+
+    <div  style="width: 50%; margin: 0 auto; text-align: justify;">
+        <p>
+          This figure illustrates how frequently each simulator—Stonefish, DAVE, HoloOcean, MARUS, and UNav-Sim—has been utilized across different underwater robotics research domains. The breakdown reveals that perception tasks dominate usage, especially for Stonefish and HoloOcean, reflecting the growing emphasis on sensing and data-driven models. Meanwhile, planning and control studies are also represented, though to a lesser extent, suggesting opportunities for further exploration using these simulators in decision-making and actuation-focused research.
+        </p>
+        <p>
+          It's notable that newer simulators like UNav-Sim, despite their recent release, are quickly gaining traction, showing the field’s responsiveness to new tools that offer enhanced realism and modern ROS2 compatibility. This trend also supports the case for benchmarking and standardization to unify future research efforts.
+        </p>
+    </div>
 
     <figure class="fig-2">
-        <img src="static/img/oceans2025_timeline.jpg" alt="Timeline of underwater robotics simulators">
-        <figcaption>Figure 2: Timeline of URS, sim‑to‑real frameworks, and benchmarking tools.</figcaption>
+        <img src="static/img/normalised.png" alt="Timeline of underwater robotics simulators">
+        <figcaption>Figure 2: Normalized citation distribution across five underwater robotic simulators (Stonefish, DAVE, HoloOcean, MARUS, and UNav-Sim), categorized by research domain. Each bar represents the proportion of citations attributed to perception, planning, and control-related studies for the respective simulator. This visualization highlights the varying focus of research efforts, with Stonefish and HoloOcean heavily cited for perception, while UNav-Sim shows a dominant presence in planning-related research.</figcaption>
     </figure>
 
-
-
-    <h2>Comparative Table</h2>
+    <br>
+    <h2><section id="literature">📄 Literature Table</section></h2>
     <div id="filter-controls"></div>
         <label for="simulatorFilter" style="margin-left: 1rem;">Filter by Simulator: </label>
         <select id="simulatorFilter">
@@ -121,9 +194,10 @@
         </button>
     </div>
 
-    <div id="table-container"></div>
+    <div id="table-container" style="width: 80%; margin: 0 auto; text-align: justify"></div>
 
     <script>
+    
     fetch('static/doc/projects-table.html')
         .then(response => response.text())
         .then(html => {
@@ -131,7 +205,7 @@
 
             const table = $('#simTable').DataTable(); // Initialize table
 
-            // 👇 Filter logic must go here
+            // Filter logic must go here
             function applyFilters() {
             const sim = $('#simulatorFilter').val();
             const proj = $('#projectFilter').val();
@@ -176,10 +250,40 @@
             });
         });
 
+
     </script>
 
-      
-</body>
+    <div class="center-box">
+    <h2><section id="cite">🖊️ BibTex</section></h2>
+        <div class="bibtex-box">
+          Pending
+        </div>
+      </div>
+    <!-- <div class="bibtex-box">
+        @article{park2021nerfies,<br>
+          &nbsp;&nbsp;author&nbsp;&nbsp;= {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B.},<br>
+          &nbsp;&nbsp;title&nbsp;&nbsp;&nbsp;&nbsp;= {Nerfies: Deformable Neural Radiance Fields},<br>
+          &nbsp;&nbsp;journal&nbsp;&nbsp;= {ICCV},<br>
+          &nbsp;&nbsp;year&nbsp;&nbsp;&nbsp;&nbsp;= {2021},<br>
+        }
+    </div> -->
+
+    <!-- <figure class="fig-1">
+        <img src="static/img/simulator-architecture.jpg" alt="Foundational framework of an underwater robotic simulator">
+        <figcaption>Figure 1: Foundational framework of an underwater robotic simulator.</figcaption>
+    </figure>
+
+    <figure class="fig-2">
+        <img src="static/img/oceans2025_timeline.jpg" alt="Timeline of underwater robotics simulators">
+        <figcaption>Figure 2: Timeline of URS, sim‑to‑real frameworks, and benchmarking tools.</figcaption>
+    </figure> -->
+
+    <script>
+        function scrollToTop() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    </body>
 </html>
 
 
