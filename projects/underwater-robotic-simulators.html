@@ -9,6 +9,55 @@
 
 
     <style>
+    /* General Mobile Styling */
+    @media (max-width: 768px) {
+    h1, h2, h3 {
+        margin: 16px 0 10px;
+    }
+
+    .center-box,
+    .figure-with-text,
+    .side-by-side {
+        margin: 20px auto;
+        padding: 10px;
+    }
+    }
+
+    /* Navigation (Analytics • Literature Table • Cite) */
+    @media (max-width: 480px) {
+      .section-nav {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 0.9em;
+        align-items: center;
+      }
+    }
+
+    /* DataTable fix for small screens */
+    table.dataTable {
+      width: 100% !important;
+      overflow-x: auto;
+      display: block;
+    }
+
+    /* Back to Top button on mobile */
+    @media (max-width: 480px) {
+      #backToTopBtn {
+        bottom: 20px;
+        right: 20px;
+        padding: 8px 12px;
+        font-size: 12px;
+      }
+    }
+
+    /* Image responsiveness */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: auto;
+    }
+
     body {
     font-family: 'Inter', sans-serif;
     text-align: center;
@@ -25,7 +74,7 @@
     }
     /* Independent widths */
     .fig-1 img { width: 60%; }
-    .fig-2 img { width: 80%; }
+    .fig-2 img { width: 85%; }
     
 
     .dataTables_filter {
@@ -56,16 +105,15 @@
         color: #0077cc;
     }
 
-    .dot-divider::before {
+    .section-nav a:not(:first-child)::before {
         content: "•";
-        margin: 0 12px;
-        color: #aaa;
-    }
+        display: inline-block;
+        vertical-align: middle;
+        margin: -12px 20px;
+        color: #6e6c6c;
+        font-size: 1.2em;
+        }
 
-    .section-nav a:first-child .dot-divider::before {
-        content: "";
-        margin: 0;
-    }
 
     .center-box {
         display: flex;
@@ -118,6 +166,41 @@
     #backToTopBtn:hover {
         background-color: #005fa3;
     }
+
+    h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    }
+    p {
+        width: 70%;
+        margin: 0 auto; 
+        text-align: justify;
+        font-size: 1.2rem;
+
+    }
+
+    @media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    p {
+        width: 90%;
+        margin: 0 auto; 
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+
+    .fig-1 img{
+        width: 170%;
+    }
+
+    .fig-2 img{
+        width: 200%;
+    }
+
+    }
+
     </style>
 
     <!-- DataTables CSS -->
@@ -132,15 +215,16 @@
 
     <h1>🌊🤖Underwater Robotic Simulators - A Review</h1>
     <div class="section-nav">
-        <a href="#analytics"><span class="dot-divider">Analytics</span></a>
-        <a href="#literature"><span class="dot-divider">Literature Table</span></a>
-        <a href="#cite"><span class="dot-divider">Cite</span></a>
+        <a href="#analytics">Analytics</a>
+        <a href="#literature">Literature Table</a>
+        <a href="#cite">Cite</a>
       </div>
+      
 
-    <p style="width: 50%; margin: 0 auto; text-align: justify;">        This website accompanies the review <strong>“Underwater Robotic Simulators Review for Autonomous System Development”</strong>, offering a concise summary of findings and a categorized overview of the evaluated literature.
+    <p>        This website accompanies the review <strong>“Underwater Robotic Simulators Review for Autonomous System Development”</strong>, offering a concise summary of findings and a categorized overview of the evaluated literature.
     </p>
     <br>
-    <p style="width: 50%; margin: 0 auto; text-align: justify;">       
+    <p>       
          The review evaluates five state-of-the-art, ROS-compatible, open-source underwater robotic simulators (URSs) based on features such as sensor fidelity, environmental realism, and their role in sim-to-real transfer. Each simulator was analyzed across <strong>perception</strong>, <strong>planning</strong>, <strong>control</strong>, and <strong>other</strong> research domains.
     </p>
 
@@ -149,19 +233,19 @@
 
     <h2><section id="analytics">🔍 SOTA Underwater Robotic Simulator Analytics</section></h2>
 
-    <figure class="fig-1"  style="margin: 0 auto; text-align: center;">
+    <figure class="fig-1"  style="text-align: center;">
         <img src="static/img/breakdown.png" alt="Foundational framework of an underwater robotic simulator">
         <figcaption>Figure 1: Research area distribution of publications that utilize the five reviewed simulator with the simulators' release years in parenthesis.</figcaption>
     </figure>
 
-    <div  style="width: 50%; margin: 0 auto; text-align: justify;">
+    <!-- <div  style="width: 90%; text-align: justify;"> -->
         <p>
           This figure illustrates how frequently each simulator—Stonefish, DAVE, HoloOcean, MARUS, and UNav-Sim—has been utilized across different underwater robotics research domains. The breakdown reveals that perception tasks dominate usage, especially for Stonefish and HoloOcean, reflecting the growing emphasis on sensing and data-driven models. Meanwhile, planning and control studies are also represented, though to a lesser extent, suggesting opportunities for further exploration using these simulators in decision-making and actuation-focused research.
         </p>
         <p>
           It's notable that newer simulators like UNav-Sim, despite their recent release, are quickly gaining traction, showing the field’s responsiveness to new tools that offer enhanced realism and modern ROS2 compatibility. This trend also supports the case for benchmarking and standardization to unify future research efforts.
         </p>
-    </div>
+    <!-- </div> -->
 
     <figure class="fig-2">
         <img src="static/img/normalised.png" alt="Timeline of underwater robotics simulators">
