@@ -50,7 +50,7 @@ profiles:
       <span style="margin-left: 2em;"></span>  <br> </p>
   
   - align: left
-    image: people/yeli.jpg
+    image: people/yeli.png
     content: people/about_yeli.md
     image_circular: false # crops the image to make it circular
     more_info: >
