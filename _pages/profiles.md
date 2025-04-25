@@ -50,6 +50,13 @@ profiles:
       <span style="margin-left: 2em;"></span>  <br> </p>
   
   - align: left
+    image: people/yeli.jpg
+    content: people/about_yeli.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>MPhil/PhD Student</p>
+
+  - align: left
     image: people/nana.jpg
     content: people/about_nana.md
     image_circular: false # crops the image to make it circular
