@@ -32,7 +32,7 @@ profiles:
       <p>Visiting Scholar</p> <br>
 
   - align: left
-    image: people/xtan.jpg
+    image: people/xtan.png
     content: people/about_xtan.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -70,7 +70,7 @@ profiles:
       <p>MPhil/PhD Student</p>
 
   - align: left
-    image: people/nkutin.jpg
+    image: people/nkutin.jpeg
     content: people/about_nana.md
     image_circular: false # crops the image to make it circular
     more_info: >
