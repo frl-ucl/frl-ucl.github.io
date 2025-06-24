@@ -24,7 +24,20 @@ profiles:
       
     scholar_userid: hw5f7C0AAAAJ
     social: true
-  
+  - align: left
+    image: people/jeonghyeon.jpg
+    content: people/about_jpak.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Visiting Scholar</p> <br>
+
+  - align: left
+    image: people/xtan.jpg
+    content: people/about_xtan.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Visiting Scholar</p> <br>
+
   - align: left
     image: people/yhu.jpg
     content: people/about_yhu.md
@@ -57,7 +70,7 @@ profiles:
       <p>MPhil/PhD Student</p>
 
   - align: left
-    image: people/nana.jpg
+    image: people/nkutin.jpg
     content: people/about_nana.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -92,5 +105,5 @@ profiles:
     content: people/about_yhuang.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Visiting Scholar</p> <br>
+      <p>Visiting Scholar Alumna</p> <br>
 ---
