@@ -85,4 +85,17 @@ Research Output: [[IEEE Transactions on Instrumentation and Measurement '21](htt
     </div>
 </div>   
 <!-- References -->
-Research Output: [[Ocean Engineering '22](https://www.sciencedirect.com/science/article/pii/S002980182200720X?casa_token=0NAkQ-w0MOsAAAAA:Amga1-4TH0LBdu3o0Yyk4De0pNf7Zt4AXn5yBKmpnRrCURIrxXuJS0FWsnVvXHlum_f9D1X7XQ)], [[IEEE Journal of Oceanic Engineering '22](https://ieeexplore.ieee.org/abstract/document/9864318/?casa_token=rlxA7EZ9DzYAAAAA:a5IJJu9FKzgGasAa3WiIwIXrkrziGv9RsMhihLeGc-kXN60XqHGAU1xADil9fEIyCN0P1cI2)], [[IROS '21](https://ieeexplore.ieee.org/abstract/document/9636614?casa_token=gmuRwbUBmMYAAAAA:MD-dptuROFDv-_fPcY8_LmaaOW7BgW3djtOEEtXMn5uFuTGIL_DTOCnutKl7ZW95fb9-qaie)] 
+Research Output: [[Ocean Engineering '22](https://www.sciencedirect.com/science/article/pii/S002980182200720X?casa_token=0NAkQ-w0MOsAAAAA:Amga1-4TH0LBdu3o0Yyk4De0pNf7Zt4AXn5yBKmpnRrCURIrxXuJS0FWsnVvXHlum_f9D1X7XQ)], [[IEEE Journal of Oceanic Engineering '22](https://ieeexplore.ieee.org/abstract/document/9864318/?casa_token=rlxA7EZ9DzYAAAAA:a5IJJu9FKzgGasAa3WiIwIXrkrziGv9RsMhihLeGc-kXN60XqHGAU1xADil9fEIyCN0P1cI2)], [[IROS '21](https://ieeexplore.ieee.org/abstract/document/9636614?casa_token=gmuRwbUBmMYAAAAA:MD-dptuROFDv-_fPcY8_LmaaOW7BgW3djtOEEtXMn5uFuTGIL_DTOCnutKl7ZW95fb9-qaie)]
+
+ <!-- ----------------------------------------------- AUTONOMOUS EXPLORATION AND MAPPING -->
+<br>
+<p style="font-size: 25px;"><b>Autonomous exploration and mapping</b></p>
+We have developed an active SLAM framework built around a virtual map to enable USVs to carry out autonomous exploration and mapping.  In feature-sparse marine environments, our approach explicitly models pose uncertainty and sensor error to predict the positional uncertainty of latent landmarks within a given region.  By steering exploration toward areas where virtual map uncertainty is reduced, USVs can maintain robust localization and reliably detect loop closures throughout their missions.
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/virtualmap.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>   
+<!-- References
+Research Output: [[Ocean Engineering '22](https://www.sciencedirect.com/science/article/pii/S002980182200720X?casa_token=0NAkQ-w0MOsAAAAA:Amga1-4TH0LBdu3o0Yyk4De0pNf7Zt4AXn5yBKmpnRrCURIrxXuJS0FWsnVvXHlum_f9D1X7XQ)], [[IEEE Journal of Oceanic Engineering '22](https://ieeexplore.ieee.org/abstract/document/9864318/?casa_token=rlxA7EZ9DzYAAAAA:a5IJJu9FKzgGasAa3WiIwIXrkrziGv9RsMhihLeGc-kXN60XqHGAU1xADil9fEIyCN0P1cI2)], [[IROS '21](https://ieeexplore.ieee.org/abstract/document/9636614?casa_token=gmuRwbUBmMYAAAAA:MD-dptuROFDv-_fPcY8_LmaaOW7BgW3djtOEEtXMn5uFuTGIL_DTOCnutKl7ZW95fb9-qaie)] -->
+

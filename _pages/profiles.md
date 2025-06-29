@@ -21,23 +21,6 @@ profiles:
       <span style="margin-left: 2em;"></span> 
       <a href="https://profiles.ucl.ac.uk/35462-yuanchang-liu" title="Work" style="transform: scale(2); display: inline-block;"><i class="ai ai-archive"></i></a> <br> </p>
 
-      
-    scholar_userid: hw5f7C0AAAAJ
-    social: true
-  - align: left
-    image: people/jeonghyeon.jpg
-    content: people/about_jpak.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Visiting Scholar</p> <br>
-
-  - align: left
-    image: people/xtan.png
-    content: people/about_xtan.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Visiting Scholar</p> <br>
-
   - align: left
     image: people/yhu.jpg
     content: people/about_yhu.md
@@ -94,11 +77,35 @@ profiles:
       <a href="https://www.ucl.ac.uk/~ucemaxx" title="Work" style="transform: scale(2); display: inline-block;"><i class="ai ai-archive"></i></a> <br> </p>
   
   - align: left
+    image: people/wg.jpeg
+    content: people/about_wg.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Post-doc</p> <br>
+
+  - align: left
     image: people/mbm.jpeg
     content: people/about_mbm.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD Alumna</p> <br>
+
+    scholar_userid: hw5f7C0AAAAJ
+    social: true
+
+  - align: left
+    image: people/jeonghyeon.jpg
+    content: people/about_jpak.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Visiting Scholar</p> <br>
+
+  - align: left
+    image: people/xtan.jpeg
+    content: people/about_xtan.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Visiting Scholar</p> <br>
 
   - align: left
     image: people/yhuang.png
