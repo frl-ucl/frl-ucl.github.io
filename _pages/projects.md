@@ -15,34 +15,39 @@ horizontal: false
 <p style="text-align: justify;">We develop deep learning algorithms for robust object detection in challenging marine environments, enabling reliable perception under varying sea states, lighting conditions, and complex port settings. Our work focuses on enhancing the accuracy of underwater and surface object detection, ensuring the safe and efficient operation of autonomous maritime systems.</p>
 
  <!-- -----------------------------------------------VISUAL DETECTION-->
-<p style="font-size: 25px;"><b>Vision-based</b></p>
+<p style="font-size: 25px;"><b>Multi-sensor-based</b></p>
 
 <p style="text-align: justify;">In collaboration with Port of London Authority, our research group conducted a series of data collection trials on the River Thames. We used multiple perception sensors including 3D LiDAR, high-resolution cameras, sound velocity profilers, etc. onboard a survey vessel to achieve a comprehensive autonomous understanding of traffic in busy waterways. We are grateful for the support from Port of London Authority and our funder, EPSRC.</p>
 
-<!-- This is an example post with videos. It supports local video files. -->
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-    {% include video.liquid path="assets/img/projects/lidar-based.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+<div class="row justify-content-center align-items-center" style="margin-top: 1.5rem;">
+    <div class="col-md-6 mb-3 mb-md-0">
+        {% include video.liquid path="assets/img/projects/lidar-based.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
-</div>
-
-<!-- References -->
-Research Output: [[T-ASE '24](https://ieeexplore.ieee.org/abstract/document/10443430/?casa_token=c6TqEj3UEyoAAAAA:-HAYweS-tQeqPO0Xdvq0eYUehgL5UwZJzLM5NVSIsA-oDyaRHYZuHUvUm1DyX-VSWzd3m9Pw)], [[Ocean Engineering '24](https://www.sciencedirect.com/science/article/pii/S002980182402626X)]
-
-<br>
-
- <!-- ----------------------------------------------- LIDAR -->
-<p style="font-size: 25px;"><b>LiDAR-based</b></p>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-md-6">
         {% include figure.liquid loading="eager" path="assets/img/projects/marina-still.gif" title="Marina Still" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <!-- References -->
-Research Output: [[Ocean Engineering '15](https://www.sciencedirect.com/science/article/pii/S0029801815000165?casa_token=IMX39rYW6V4AAAAA:w9y5P73ZHORoiSLiH5b4xtypu4Pq6CDq_vpJrVoF6jkCS80hfiVzDHFh1dBOtdBYIGBqKul5Qg)]
+Research Output: [[Ocean Engineering '15](https://www.sciencedirect.com/science/article/pii/S0029801815000165?casa_token=IMX39rYW6V4AAAAA:w9y5P73ZHORoiSLiH5b4xtypu4Pq6CDq_vpJrVoF6jkCS80hfiVzDHFh1dBOtdBYIGBqKul5Qg)] [[T-ASE '24](https://ieeexplore.ieee.org/abstract/document/10443430/?casa_token=c6TqEj3UEyoAAAAA:-HAYweS-tQeqPO0Xdvq0eYUehgL5UwZJzLM5NVSIsA-oDyaRHYZuHUvUm1DyX-VSWzd3m9Pw)], [[Ocean Engineering '24](https://www.sciencedirect.com/science/article/pii/S002980182402626X)]
+
+<br>
+
+ <!-- ----------------------------------------------- LIDAR -->
+<p style="font-size: 25px;"><b>Radar-based</b></p>
+We recently conducted data collection trials aboard a Port of London Authority (PLA) survey boat at Gravesend. These trials are a crucial step in enhancing autonomous vessel perception and navigation. Autonomous marine navigation has made significant strides, but harsh weather conditions still pose a major challenge. To bridge this gap, we are exploring the potential of 360° high-definition imaging radar to enable all-weather autonomous navigation for marine vessels.
+
+<div class="row justify-content-center align-items-center" style="margin-top: 1.5rem;">
+    <div class="col-md-6 mb-3 mb-md-0">
+        {% include figure.liquid path="assets/video/gravesendtesting.gif" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+    <div class="col-md-6">
+        {% include figure.liquid path="assets/video/gravesenddata.gif" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+
+<!-- References -->
+<!-- Research Output: [[Ocean Engineering '15](https://www.sciencedirect.com/science/article/pii/S0029801815000165?casa_token=IMX39rYW6V4AAAAA:w9y5P73ZHORoiSLiH5b4xtypu4Pq6CDq_vpJrVoF6jkCS80hfiVzDHFh1dBOtdBYIGBqKul5Qg)] -->
 
 <br>
 
