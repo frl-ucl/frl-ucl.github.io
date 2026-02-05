@@ -21,6 +21,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 <img src= "assets/img/landingpage/meriem-drone.jpeg" alt="Meriem Ben Miled and Drone" style="max-width: 100%; height: auto; vertical-align: middle display: banner;">
 <img src= "assets/img/landingpage/roboticsailogo.png" alt="Robotics and Innovation Logo" width= 150 style="display: inline;">  <img src= "assets/img/landingpage/ucl_mech_175_horiz_purple.png" alt="UCL" width= 200 style="vertical-align: middle; display: inline;">
 
+---
+<!-- <div style="background-color: #c8e5ec; padding: 20px; border-radius: 8px;"> -->
+<div style="text-align: center;">
+<h2>Open Positions</h2>
+<p>
+We welcome applications for PhD and Post-doc fellowship positions. Please submit your interest via 
+<a href="https://forms.office.com/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwg2Pny5n8NtHos16FoCDyJ1UOVVEMzZOVE9CR1Y5MUhWWTdDVEVWUFc1VC4u&route=shorturl">this form</a>.
+</p>
+</div>
+---
+
 <p style="text-align: justify;">
 Our group is dedicated to advancing autonomous systems across field research in three core areas: <b>Reliable Sensing and Perception</b>, <b>Intelligent Planning and Decision Making</b>, and <b>Advanced Robust Control</b>. Our mission is to develop resilient technologies that enhance system reliability by integrating sophisticated sensing, perception, and adaptive control frameworks. By leveraging the latest advances in machine learning, optimization, and control theory, we address real-world challenges, enabling autonomous platforms to navigate and operate effectively in complex, dynamic environments.
 </p>
