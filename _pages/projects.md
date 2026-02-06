@@ -5,7 +5,7 @@ permalink: /projects/
 description:  "Our group is dedicated to advancing autonomous systems through cutting-edge research in three core areas: Reliable Sensing and Perception, Intelligent Planning and Decision Making, and Advanced Robust Control. Our mission is to develop resilient technologies that enhance system reliability by integrating sophisticated sensing, perception, and adaptive control frameworks. By leveraging the latest advances in machine learning, optimization, and control theory, we address real-world challenges, enabling autonomous platforms to navigate and operate effectively in complex, dynamic environments."
 nav: true
 nav_order: 3
-display_categories: [Reliable Sensing and Perception, Intelligent Planning and Decision Making] #, Advanced Robust Control]
+display_categories: [Reliable Sensing and Perception, Intelligent Planning and Decision Making, Advanced Robust Control]
 horizontal: false
 ---
 
@@ -51,7 +51,53 @@ We recently conducted data collection trials aboard a Port of London Authority (
 
 <br>
 
+<p style="font-size: 25px;"><b>Uncertainty-aware LiDAR-based Vessel Detection</b></p>
 
+<p style="text-align: justify;">
+This work introduces MPCD and U-MPCD, LiDAR-based point cloud detectors designed for autonomous surface vessels operating in complex and high-traffic waterways. By combining fine-grained local geometric features with global multiscale representations, MPCD achieves a <b>12.8%</b> improvement over the benchmark.
+</p>
+
+<p style="text-align: justify;">
+U-MPCD extends this framework with explicit modeling of both <i>epistemic</i> and <i>aleatoric</i> uncertainty, improving detection performance by a further <b>2%</b> while maintaining <b>15 Hz</b> real-time inference. The resulting system provides not only accurate detections but also calibrated confidence estimates that are critical for safe autonomous navigation.
+</p>
+
+<p style="text-align: justify;">
+To support evaluation in realistic conditions, a large-scale LiDAR dataset was collected in the busy central section of the River Thames, covering four days of operations (six hours per day) and approximately <b>11.4 km</b> of dense maritime traffic. The dataset captures one of the most challenging urban waterway environments for vessel detection and is fully open-sourced to support the wider research community.
+</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/xie-2025.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>   
+<!-- References -->
+Research Output: [[IEEE Journal of Oceanic Engineering '25](https://ieeexplore.ieee.org/abstract/document/11244833/)] 
+
+
+<br>
+
+<p style="font-size: 25px;"><b>Graph-based AIS Trajectory Intelligence</b></p>
+
+<p style="text-align: justify;">
+This work introduces a graph-based framework for modelling AIS vessel trajectories. Rather than representing AIS messages as time series or images, each trajectory segment is modelled as a directed acyclic graph, enabling the explicit capture of spatial, temporal, and geometric dependencies in vessel motion.
+</p>
+
+<p style="text-align: justify;">
+A hierarchical graph neural network with feature-level attention is proposed to refine both node and edge representations within these linear trajectory graphs. This attention mechanism allows the model to focus on the most informative attributes at each level, a capability that is rarely explored in maritime analytics.
+</p>
+
+<p style="text-align: justify;">
+The resulting system achieves <b>98% classification accuracy</b> and <b>99% AUC–ROC</b> on large-scale AIS data collected from UK waters, demonstrating strong performance for vessel behaviour analysis. The framework has significant potential for applications including emissions modelling, maritime monitoring, risk and compliance, and autonomous navigation.
+</p>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/nana-2026.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>   
+<!-- References -->
+Research Output: [[Advanced Engineering Informatics '26](https://www.sciencedirect.com/science/article/pii/S1474034625009759?via%3Dihub)] 
+
+<b>
 
 
 
@@ -104,3 +150,34 @@ We have developed an active SLAM framework built around a virtual map to enable 
 <!-- References
 Research Output: [[Ocean Engineering '22](https://www.sciencedirect.com/science/article/pii/S002980182200720X?casa_token=0NAkQ-w0MOsAAAAA:Amga1-4TH0LBdu3o0Yyk4De0pNf7Zt4AXn5yBKmpnRrCURIrxXuJS0FWsnVvXHlum_f9D1X7XQ)], [[IEEE Journal of Oceanic Engineering '22](https://ieeexplore.ieee.org/abstract/document/9864318/?casa_token=rlxA7EZ9DzYAAAAA:a5IJJu9FKzgGasAa3WiIwIXrkrziGv9RsMhihLeGc-kXN60XqHGAU1xADil9fEIyCN0P1cI2)], [[IROS '21](https://ieeexplore.ieee.org/abstract/document/9636614?casa_token=gmuRwbUBmMYAAAAA:MD-dptuROFDv-_fPcY8_LmaaOW7BgW3djtOEEtXMn5uFuTGIL_DTOCnutKl7ZW95fb9-qaie)] -->
 
+
+<br>
+
+
+
+
+
+
+<!-- =================================================================================================== -->
+
+<h2 class="category">Advanced Robust Control</h2>
+<div style="width: 100%; height: 0.5px; background-color: rgba(0, 0, 0, 0.15); margin-top: -8px; margin-bottom: 20px;"></div>
+
+<p style="text-align: justify;">We develop advanced control strategies that ensure robust and stable operation of autonomous systems in challenging real-world conditions. By integrating modern control theory, adaptive algorithms, and machine learning techniques, our work focuses on designing controllers that can handle uncertainties, disturbances, and model variations. This enables autonomous platforms to maintain reliable performance and safety across diverse operational scenarios, from marine environments to dynamic urban settings.</p>
+
+<p style="font-size: 25px;"><b>Environment-assisted Fault-Tolerant Control</b></p>
+
+<p style="text-align: justify;">
+This work addresses a critical failure scenario in marine robotics: when an unmanned surface vehicle loses most of its thrust, conventional controllers become ineffective due to severe actuation limits.
+</p>
+
+<p style="text-align: justify;">
+Rather than treating wind and waves purely as disturbances to be rejected, the proposed approach exploits environmental forces as <i>virtual actuators</i>. An environment-assisted model predictive control framework adaptively determines how much to rely on these forces based on fault severity and prediction confidence, integrating learning-based force prediction with reachability-aware planning and MPC.
+</p>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/icra-yang.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>   
+
+<br>
