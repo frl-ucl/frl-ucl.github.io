@@ -27,7 +27,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 <h2>Open Positions</h2>
 <p>
 We welcome applications for PhD and Post-doc fellowship positions. Please submit your interest via 
-<a href="https://forms.office.com/pages/responsepage.aspx?id=_oivH5ipW0yTySEKEdmlwg2Pny5n8NtHos16FoCDyJ1UOVVEMzZOVE9CR1Y5MUhWWTdDVEVWUFc1VC4u&route=shorturl">this form</a>.
+<a href="https://forms.office.com/e/mTC2qZGhQM">this form</a>.
 </p>
 </div>
 ---
