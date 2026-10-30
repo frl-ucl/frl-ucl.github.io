@@ -22,18 +22,25 @@ profiles:
       <a href="https://profiles.ucl.ac.uk/35462-yuanchang-liu" title="Work" style="transform: scale(2); display: inline-block;"><i class="ai ai-archive"></i></a> <br> </p>
 
   - align: left
+    image: people/kcai.jpg
+    content: people/about_kcai.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>MPhil/PhD Student</p> <br>
+
+  - align: left
     image: people/yhu.jpg
     content: people/about_yhu.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>MPhil/PhD Student</p> <br>
+      <p>PhD Candidate</p> <br>
 
   - align: left
     image: people/jxue.jpg
     content: people/about_jxue.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>MPhil/PhD Student</p> <br>
+      <p>PhD Candidate</p> <br>
 
 
   - align: left
@@ -41,7 +48,7 @@ profiles:
     content: people/about_saldhaheri.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>MPhil/PhD Student</p> <br>
+      <p>PhD Student</p> <br>
       <p> <br> <a href="https://scholar.google.com/citations?user=hw5f7C0AAAAJ&hl=en&oi=ao" title="Google Scholar" style="transform: scale(2); display: inline-block;"><i class="ai ai-google-scholar"></i></a> 
       <span style="margin-left: 2em;"></span>  <br> </p>
   
@@ -50,14 +57,14 @@ profiles:
     content: people/about_yeli.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>MPhil/PhD Student</p>
+      <p>PhD Candidate</p>
 
   - align: left
     image: people/nkutin.jpeg
     content: people/about_nana.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>MPhil/PhD Student</p>
+      <p>PhD Candidate</p>
 
   - align: left
     image: people/yxie.png
