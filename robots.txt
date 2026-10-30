@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://frl-ucl.github.io/al-folio/sitemap.xml
+Sitemap: https://frl-ucl.github.io/sitemap.xml
