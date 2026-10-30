@@ -1,0 +1,5 @@
+<p style="text-align: justify;">    
+
+<strong>Yongchang Xie</strong> is a PhD researcher specialising in enhancing maritime environment perception with 3D LiDAR technology. His pioneering work focuses on developing a novel framework for robust detection and tracking of floating objects by Unmanned Surface Vehicles (USVs) in high-traffic marine zones. Unlike traditional camera-based methods, Xie's approach leverages LiDAR to overcome environmental sensitivity issues and provide precise spatial location data for detected targets. His framework integrates advanced techniques including Convolutional Neural Networks (CNNs) like PointPillar, SECOND, and PV-RCNN for efficient 3D point cloud analysis and object detection. Additionally, he employs a Kalman Filter-based multi-object tracking system to ensure reliable performance in complex docking scenarios and other challenging environments. Xie's research demonstrates significant advancements in USV perception capabilities, promising practical applications in maritime safety and automation.
+
+</p>
